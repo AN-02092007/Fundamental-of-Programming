@@ -6,7 +6,7 @@ namespace Fundamental_of_Programming.Section_3
 {
     internal class Ex01
     {
-        public static void Run()
+        public static void Main(string[] args)
         {
             /*Exercise from C# Structure Programming Language Fundamentals slide
              Exercise 1:

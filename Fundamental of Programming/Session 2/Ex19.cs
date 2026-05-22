@@ -6,7 +6,7 @@ namespace Fundamental_of_Programming.Section_2
 {
     internal class Ex19
     {
-        public static void Run()
+        public static void Main(string[] args)
         {
             Console.Write("First Number: ");
             double number1 = double.Parse(Console.ReadLine());

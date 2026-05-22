@@ -6,7 +6,7 @@ namespace Fundamental_of_Programming.Section_2
 {
     internal class Ex04
     {
-        public static void Run()
+        public static void Main(string[] args)
         {
             int congthuc1 = -1 + 4 * 6;
             Console.WriteLine($"{congthuc1}");

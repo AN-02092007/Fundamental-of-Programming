@@ -6,7 +6,7 @@ namespace Fundamental_of_Programming.Section_3
 {
     internal class Ex02
     {
-        public static void Run()
+        public static void Main(string[] args)
         {
             // Exercise of Data Types slide
             Console.WriteLine("Exercise 1:");

@@ -6,7 +6,7 @@ namespace Fundamental_of_Programming.Section_2
 {
     internal class Ex12
     {
-        public static void Run()
+        public static void Main(string[] args)
         {
             Console.Write("Enter a digit: ");
             string so = Console.ReadLine();

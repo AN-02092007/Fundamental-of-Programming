@@ -4,21 +4,23 @@ using System.Text;
 
 namespace Fundamental_of_Programming.Section_2
 {
-    internal class Ex18
+    internal class Ex20
     {
-        public static void Run()
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Input first integer: ");
+            Console.Write("First Number: ");
             double a = double.Parse(Console.ReadLine());
-            Console.WriteLine("Input second integer: ");
+            Console.Write("Second Number: ");
             double b = double.Parse(Console.ReadLine());
-            if (a * b<0)
+            double c = Math.Abs(a - b);
+            if (a>b)
             {
-                Console.WriteLine("True");
+                Console.WriteLine(c * 2);
             }
             else
-            {  Console.WriteLine("False"); 
-            }
+            {  
+                Console.WriteLine(c); 
+            }    
             Console.ReadLine();
         }
     }

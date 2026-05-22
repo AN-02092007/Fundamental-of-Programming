@@ -4,14 +4,16 @@ using System.Text;
 
 namespace Fundamental_of_Programming.Section_2
 {
-    internal class Ex17
+    internal class Ex16
     {
-        public static void Run()
+        public static void Main(string[] args)
         {
-            Console.Write("Input a string: ");
+            Console.Write("");
             string kytu = Console.ReadLine();
             char dau = kytu[0];
-            Console.WriteLine($"{dau}{kytu}{dau}");
+            char cuoi = kytu[kytu.Length - 1];
+            string giua = kytu.Substring(1, kytu.Length - 2);
+            Console.WriteLine($"{cuoi}{giua}{dau}");
             Console.ReadLine();
         }
     }

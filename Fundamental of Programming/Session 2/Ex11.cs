@@ -6,7 +6,7 @@ namespace Fundamental_of_Programming.Section_2
 {
     internal class Ex11
     {
-        public static void Run()
+        public static void Main(string[] args)
         {
             Console.Write("Enter your age: ");
             int age = int.Parse(Console.ReadLine());

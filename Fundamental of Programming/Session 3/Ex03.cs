@@ -6,7 +6,7 @@ namespace Fundamental_of_Programming.Section_3
 {
     internal class Ex03
     {
-        public static void Run()
+        public static void Main(string[] args)
         {
             //Exercise of Operators and Control Flow slide
             Console.WriteLine("Exercise 1:");
